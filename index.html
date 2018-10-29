@@ -11,16 +11,16 @@
 	<p>Reset button will reset to a 16x16 grid and grey color.</p>
 	<p>Grey option will get darker with repeated hovers.</p>
 	<div id=controls>
-		<select ic="colorOptions">
-			<option value="gray">Grey</option>
+		<select id="colorOptions">
+			<option value="gray" selected>Grey</option>
 			<option value="red">Red</option>
 			<option value="green">Green</option>
 			<option value="blue">Blue</option>
 			<option value="random">Random</option>
 			<option value="white">Erase</option>
 		</select>
-		<select ic="gridOptions">
-				<option value="16">16x16</option>
+		<select id="gridOptions">
+				<option value="16" selected>16x16</option>
 				<option value="32">32x32</option>
 				<option value="64">64x64</option>
 				<option value="128">128x128</option>
@@ -28,7 +28,9 @@
 				<option value="512">512x512</option>
 		</select>
 		<button id="reset" type="submit" >Reset</button>
+		<br>
 	</div>
+	<br>
 	<div id="container">
 		
 	</div>

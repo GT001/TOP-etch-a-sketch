@@ -7,8 +7,17 @@ h1,p{
     text-align: center;
 }
 #controls{
-    width: 512px;
-    margin: 0 auto;
+    display:inline-fex;
+    width: 45%;
+    margin: 10px auto 0 auto;
+    padding:0;
+    border:0;
+}
+#reset{
+    height:30px;
+}
+select{
+    height:30px;
 }
 #container {
     display:grid;
@@ -28,5 +37,5 @@ h1,p{
 
 }
 .grid:hover {
-    background-color: green;
+    border: solid 1px grey;
 }
