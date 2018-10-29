@@ -1,7 +1,7 @@
 body {
     width: 512px;
     margin: 0 auto;
-    background: grey;
+    background: rgb(200, 200, 200);
 }
 h1,p{
     text-align: center;
@@ -33,9 +33,27 @@ select{
     height: auto;
     margin:0;
     padding: 0;
-    
-
 }
 .grid:hover {
-    border: solid 1px grey;
+    border: gray solid 0.5px;
+}
+#gery {
+    background-color: rgba(130, 127, 125);   
+}
+#red{
+    background-color: rgb(255, 17, 0);
+}
+#green{
+    background-color: rgb(63, 173, 63);
+}
+#blue{
+    background-color: rgba(24, 78, 185);
+}
+
+#black {
+    background-color: rgba(0, 0, 0);
+    color: rgb(255,255,255);
+}
+#ctrl{
+    font-weight: bolder;
 }

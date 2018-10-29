@@ -8,32 +8,29 @@
 <body>
 	
 	<h1>Etch-A-Sketch</h1>
-	<p>Reset button will reset to a 16x16 grid and grey color.</p>
-	<p>Grey option will get darker with repeated hovers.</p>
+	<p>Reset button will reset the grid to 16x16 and grey color.</p>
+	<p>Press and hold <span id="ctrl">Ctrl</span> to start hover effect.</p>
 	<div id=controls>
 		<select id="colorOptions">
-			<option value="gray" selected>Grey</option>
-			<option value="red">Red</option>
-			<option value="green">Green</option>
-			<option value="blue">Blue</option>
-			<option value="random">Random</option>
-			<option value="white">Erase</option>
+			<option id="grey" selected>Grey</option>
+			<option id="red">Red</option>
+			<option id="green">Green</option>
+			<option id="blue">Blue</option>
+			<option id="black">Black</option>
+			<option id="random">Random</option>
+			<option id="white">Erase</option>
+			
 		</select>
 		<select id="gridOptions">
 				<option value="16" selected>16x16</option>
 				<option value="32">32x32</option>
 				<option value="64">64x64</option>
-				<option value="128">128x128</option>
-				<option value="256">256x256</option>
-				<option value="512">512x512</option>
 		</select>
 		<button id="reset" type="submit" >Reset</button>
 		<br>
 	</div>
 	<br>
-	<div id="container">
-		
-	</div>
+	<div id="container"></div>
 
 </body>
 <script src="script.js"></script>
