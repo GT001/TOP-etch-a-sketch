@@ -1,4 +1,7 @@
 
+# The Odin Project
+Project: Create an Etch a Sketch - [View in Browser](https://gt001.github.io/TheOdinProject-etch-a-sketch/) 
+Project instructions are below.
 
 ### Introduction
 In this project you'll be creating a pretty neat toy for your portfolio to flex your DOM manipulation skills.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
